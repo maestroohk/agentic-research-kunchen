@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ValidationPoc.Lib/ValidationPoc.Lib.csproj" />
+    <Project Path="src/ValidationPoc.Web/ValidationPoc.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ValidationPoc.Tests/ValidationPoc.Tests.csproj" />
+  </Folder>
+</Solution>

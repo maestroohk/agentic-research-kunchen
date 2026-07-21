@@ -1,0 +1,41 @@
+## .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+coverage.*.xml
+
+## Tooling
+.idea/
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+*.swp
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Treehouse / no-mistakes scratch
+.treehouse/
+.airlock/
+
+## Local environment
+.env
+appsettings.Development.json
+
+## Tool runtime state (per-machine, never commit)
+.gnhf/
+.treehouse/
+.no-mistakes/
+.no-mistakes-cache/
+.airlock/

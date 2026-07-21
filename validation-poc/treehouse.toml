@@ -1,0 +1,12 @@
+# Treehouse pool configuration for the validation PoC.
+#
+# When `root` is omitted, treehouse uses the per-user default
+# (`~/.treehouse/<repo-name>` on Unix, `%USERPROFILE%\.treehouse\<repo-name>`
+# on Windows). Each machine will get its own pool rooted under the
+# current user's home directory, so no machine-specific absolute path
+# is committed here.
+#
+# Hooks must live in the user-level `~/.config/treehouse/config.toml`,
+# not in this file, because treehouse ignores repo-level hooks by design.
+
+max_trees = 4
